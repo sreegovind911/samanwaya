@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "postinstall": "node -e \"const fs=require('fs'); ['node_modules/.bin/vite','node_modules/.bin/esbuild','node_modules/.bin/rollup','node_modules/.bin/loose-envify'].forEach(p=>{try{fs.chmodSync(p,0o755)}catch(e){}});\""
   },
   "dependencies": {
     "react": "^18.3.1",
