@@ -147,7 +147,6 @@ export default function App() {
       <nav aria-label="Primary">
         <div className="w">
           <a className="brand" href="#hero" onClick={(e) => { e.preventDefault(); scrollTo('hero'); }}>
-            <div className="brand-symbol">S</div>
             <span className="brand-title">
               SAMANWAYA <span className="brand-edition">2.0</span>
             </span>
