@@ -375,7 +375,7 @@ export default function App() {
               <div className="register-right">
                 <a
                   className="btn f"
-                  href="https://forms.gle/your-google-form-link"
+                  href="https://forms.gle/Q2MdeRBEy7zNWDhg6"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
